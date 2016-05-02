@@ -1,4 +1,5 @@
-= Vot'Box - boitier de vote =
+Vot'Box - boitier de vote 
+==
 
 ----
 == Fonctionnement
