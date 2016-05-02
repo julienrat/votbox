@@ -10,6 +10,7 @@ Afin de connecter celui-ci à un réseau Wifi, il faut se connecter sur le SSID 
 
 [[Image(accueil.png)]]
 
+![GitHub Logo](/images/accueil.png)
 Cliquez sur ** Configure Wifi
 
 
