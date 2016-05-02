@@ -1,6 +1,8 @@
 /*
- * Vot'box V1.1
- */
+   Vot'box V1.1
+   8483661
+   
+*/
 
 
 // Bibliothèque Wifi manager
@@ -23,7 +25,7 @@ WiFiServer server(80); // serveur de remise à zero
 WiFiClient client_raz;
 String http_site = "http://moumoute.biz/sondage_sms_2/smswall/add_sms.php?phrases="; // url du site de vote
 
-int reboot=0;
+int reboot = 0;
 char* vote = ""; // vote en cours
 int voted = 0; // a voté
 const int LED_VERTE = 4;
@@ -122,8 +124,8 @@ int keyboard() {
 void configModeCallback (WiFiManager *myWiFiManager) {
   Serial.println("Pas de réseau connu, demarrage du point d'acces");
   connect_blink.detach();
-  digitalWrite(LED_VERTE,LOW);
-  digitalWrite(LED_ROUGE,LOW);
+  digitalWrite(LED_VERTE, LOW);
+  digitalWrite(LED_ROUGE, LOW);
   ap_mode_blink.attach(0.6, tick_AP_MODE);
 
 
@@ -132,7 +134,7 @@ void configModeCallback (WiFiManager *myWiFiManager) {
   Serial.println(myWiFiManager->getConfigPortalSSID());
   Serial.print("Adresse IP :  ");
   Serial.println(WiFi.softAPIP());
-  reboot=1;
+  reboot = 1;
 }
 
 void setup() {
@@ -141,6 +143,7 @@ void setup() {
   WiFiManager wifiManager; // demarrage de wifimanager
   wifiManager.setAPCallback(configModeCallback);
   Serial.println("Vot'Box Version 1.1");
+
   connect_blink.attach(0.6, tick_V); // clignotement vert ==> recherche de connexion en cours/
 
 
@@ -160,17 +163,21 @@ void setup() {
   pinMode(2, INPUT_PULLUP); // ligne des 4 5 6 B
   pinMode(10, INPUT_PULLUP); // ligne des 7 8 9 C
   pinMode(3, INPUT_PULLUP); // ligne des * 0 # D (ATTENTION : sortie RX à remplacer dans la V2 GPIO15)
-  
+
   if (!digitalRead(3) && !digitalRead(14)) { // si # appuyé au demarrage on reset factory
     WiFi.disconnect();
     ESP.reset();
   }
-  
+
   // Initialisation du WIFI
   //version SSID defini
   //WiFi.begin(ssid, password);
   //version WifiManager
-  const char* AP_NAME = "VotBox_";
+  String number = String ("Vote_box_")+String(ESP.getChipId());
+  
+  char charBuf[32];
+  number.toCharArray(charBuf, 32);
+  const char* AP_NAME = charBuf;
   Serial.println(AP_NAME);
   if (!wifiManager.autoConnect(AP_NAME)) {
     Serial.println();
@@ -198,7 +205,7 @@ void setup() {
   digitalWrite(LED_VERTE, LOW);
   digitalWrite(LED_ROUGE, LOW);
   connect_blink.detach();
-  if(reboot) ESP.restart();
+  if (reboot) ESP.restart();
 }
 
 
