@@ -17,7 +17,13 @@ union(){
      linear_extrude(height = 5, center = false, convexity = 30)
    import (file = "vote_box.dxf",layer="pcb_holder");
     
-         linear_extrude(height = 5, center = false, convexity = 30)
+         linear_extrude(height = 7, center = false, convexity = 30)
+   import (file = "vote_box.dxf",layer="capot");
+    
+             linear_extrude(height = 2, center = false, convexity = 30)
+   import (file = "vote_box.dxf",layer="capot _ fond");
+    
+       linear_extrude(height = 10, center = false, convexity = 30)
    import (file = "vote_box.dxf",layer="capot_fix");
    
 }
