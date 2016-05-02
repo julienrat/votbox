@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-capot
+capot _ fix
   9
 $CELTYPE
   6
@@ -4353,47 +4353,9 @@ AcDbLine
  21
 26.5
   0
-LWPOLYLINE
-  5
-91
-100
-AcDbEntity
-  8
-capot
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
-0
- 10
-90
- 20
-2
- 10
-158
- 20
-2
- 10
-158
- 20
-88
- 10
-90
- 20
-88
-  0
 ARC
   5
-92
+91
 100
 AcDbEntity
   8
@@ -4421,7 +4383,7 @@ AcDbArc
   0
 ARC
   5
-93
+92
 100
 AcDbEntity
   8
@@ -4449,7 +4411,7 @@ AcDbArc
   0
 LWPOLYLINE
   5
-94
+93
 100
 AcDbEntity
   8
@@ -4487,7 +4449,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-95
+94
 100
 AcDbEntity
   8
@@ -4525,7 +4487,7 @@ AcDbPolyline
   0
 LINE
   5
-96
+95
 100
 AcDbEntity
   8
@@ -4549,7 +4511,7 @@ AcDbLine
   0
 LINE
   5
-97
+96
 100
 AcDbEntity
   8
@@ -4573,7 +4535,7 @@ AcDbLine
   0
 ARC
   5
-98
+97
 100
 AcDbEntity
   8
@@ -4601,7 +4563,7 @@ AcDbArc
   0
 ARC
   5
-99
+98
 100
 AcDbEntity
   8
@@ -4626,6 +4588,140 @@ AcDbArc
 90
  51
 180
+  0
+LWPOLYLINE
+  5
+99
+100
+AcDbEntity
+  8
+capot _ fix
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+90
+ 20
+2
+ 10
+158
+ 20
+2
+ 10
+158
+ 20
+88
+ 10
+90
+ 20
+88
+  0
+LINE
+  5
+9A
+100
+AcDbEntity
+  8
+capot _ fix
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+90
+ 20
+88
+ 11
+90
+ 21
+2
+  0
+LINE
+  5
+9B
+100
+AcDbEntity
+  8
+capot _ fix
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+90
+ 20
+2
+ 11
+158
+ 21
+2
+  0
+LINE
+  5
+9C
+100
+AcDbEntity
+  8
+capot _ fix
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+158
+ 20
+2
+ 11
+158
+ 21
+88
+  0
+LINE
+  5
+9D
+100
+AcDbEntity
+  8
+capot _ fix
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+158
+ 20
+88
+ 11
+90
+ 21
+88
   0
 ENDSEC
   0
