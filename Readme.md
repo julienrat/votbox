@@ -8,13 +8,12 @@ Au démarrage si le boitier ne reconnait pas de wifi, les 2 leds (rouge et verte
 
 Afin de connecter celui-ci à un réseau Wifi, il faut se connecter sur le SSID (Vot_box_XXXXXX ) et se rendre à l'adresse 192.168.4.1 pour accéder à l'interface de configuration.
 
-[[Image(accueil.png)]]
 
 ![GitHub Logo](/images/accueil.png)
+
 Cliquez sur ** Configure Wifi
 
-
-[[Image(selection.png)]]
+![GitHub Logo](/images/selection.png)
 
 Sélectionnez le réseau puis entrez votre mot de passe
 
