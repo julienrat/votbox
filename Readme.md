@@ -1,5 +1,5 @@
 Vot'Box - boitier de vote 
-==
+=
 
 ----
 == Fonctionnement
