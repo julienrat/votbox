@@ -34,7 +34,7 @@ Leds | Messages
 ------------ | --------------
 ![led](/images/leds_ap.png) | Le boitier ne parvient pas à se connecter, Mode configuration en point d'accès 
 ![led](/images/leds_connect.png) | Le boitier est en train de se connecter
-![led](/images/leds_ok.png)] | Le boitier est connecté et est prêt à être utilisé 
+![led](/images/leds_ok.png) | Le boitier est connecté et est prêt à être utilisé 
 ![led](/images/leds_vote_mem.png) | Vote enregistré dans la mémoire mais pas envoyé au serveur
 ![led](/images/leds_voted.png) | Vote effectué, attente de remise à zero
 
