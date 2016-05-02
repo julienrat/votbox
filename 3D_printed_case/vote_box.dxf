@@ -2301,7 +2301,7 @@ AcDbLayerTableRecord
   2
 capot _ fond
  70
-    1
+    0
  62
     7
   6
@@ -2323,7 +2323,7 @@ AcDbLayerTableRecord
   2
 case_int
  70
-    1
+    0
  62
     7
   6
@@ -2345,7 +2345,7 @@ AcDbLayerTableRecord
   2
 ext
  70
-    1
+    0
  62
     7
   6
@@ -5019,27 +5019,101 @@ AcDbLine
  21
 0
   0
-CIRCLE
+LINE
   5
 A6
 100
 AcDbEntity
   8
-capot _ fix
+case_int
   6
 ByLayer
  62
-  256
+    1
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
-110
+30.25
  20
-40
- 40
-10
+26.5
+ 11
+30.25
+ 21
+28.5
+  0
+LINE
+  5
+A7
+100
+AcDbEntity
+  8
+case_int
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbLine
+ 10
+41.75
+ 20
+26.5
+ 11
+41.75
+ 21
+28.5
+  0
+LINE
+  5
+A8
+100
+AcDbEntity
+  8
+case_int
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbLine
+ 10
+30.25
+ 20
+28.5
+ 11
+41.75
+ 21
+28.5
+  0
+LINE
+  5
+A9
+100
+AcDbEntity
+  8
+case_int
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbLine
+ 10
+41.75
+ 20
+26.5
+ 11
+30.25
+ 21
+26.5
   0
 ENDSEC
   0
