@@ -2301,7 +2301,7 @@ AcDbLayerTableRecord
   2
 capot _ fix
  70
-    1
+    0
  62
     7
   6
@@ -4671,50 +4671,6 @@ CIRCLE
 100
 AcDbEntity
   8
-capot _ fix
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-130
- 20
-40
- 40
-1
-  0
-CIRCLE
-  5
-9C
-100
-AcDbEntity
-  8
-capot _ fix
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-120
- 20
-30
- 40
-1
-  0
-CIRCLE
-  5
-9D
-100
-AcDbEntity
-  8
 capot
   6
 ByLayer
@@ -4733,7 +4689,7 @@ AcDbCircle
   0
 CIRCLE
   5
-9E
+9C
 100
 AcDbEntity
   8
@@ -4752,6 +4708,252 @@ AcDbCircle
 40
  40
 10
+  0
+LWPOLYLINE
+  5
+9D
+100
+AcDbEntity
+  8
+capot
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+90
+ 20
+2
+ 10
+158
+ 20
+2
+ 10
+158
+ 20
+88
+ 10
+90
+ 20
+88
+  0
+ARC
+  5
+9E
+100
+AcDbEntity
+  8
+capot
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+156
+ 20
+86
+ 40
+4
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+ARC
+  5
+9F
+100
+AcDbEntity
+  8
+capot
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+92
+ 20
+4
+ 40
+4
+100
+AcDbArc
+ 50
+180
+ 51
+270
+  0
+LWPOLYLINE
+  5
+A0
+100
+AcDbEntity
+  8
+capot
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+155.9999980926514
+ 20
+90
+ 10
+91.99999865130087
+ 20
+90
+ 10
+91.99999865130087
+ 20
+89.99999999999999
+ 10
+155.9999980926514
+ 20
+89.99999999999999
+  0
+LWPOLYLINE
+  5
+A1
+100
+AcDbEntity
+  8
+capot
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+88
+ 20
+85.9999990463257
+ 10
+88
+ 20
+85.9999990463257
+ 10
+88
+ 20
+4
+ 10
+88
+ 20
+4
+  0
+LINE
+  5
+A2
+100
+AcDbEntity
+  8
+capot
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+92
+ 20
+0
+ 11
+156
+ 21
+0
+  0
+LINE
+  5
+A3
+100
+AcDbEntity
+  8
+capot
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+160
+ 20
+4
+ 11
+160
+ 21
+86
+  0
+ARC
+  5
+A4
+100
+AcDbEntity
+  8
+capot
+  6
+ByLayer
+ 62
+    2
+370
+   -1
+100
+AcDbCircle
+ 10
+156
+ 20
+4
+ 40
+4
+100
+AcDbArc
+ 50
+270
+ 51
+0
   0
 ENDSEC
   0
