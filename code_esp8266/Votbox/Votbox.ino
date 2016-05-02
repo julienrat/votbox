@@ -3,8 +3,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 
-const char* ssid = "reseau_maison";
-const char* password = "12345678912345678912345678";
+const char* ssid = "ssid";
+const char* password = "********";
 
 #include <Ticker.h>
 Ticker connect_blink; // clignotements led Verte
