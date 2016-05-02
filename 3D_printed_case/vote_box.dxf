@@ -1115,7 +1115,7 @@ AcDbViewportTableRecord
  21
 1
  12
-129.296875000207
+129.4921875002073
  22
 62.69531250010035
  13
@@ -5114,6 +5114,50 @@ AcDbLine
 30.25
  21
 26.5
+  0
+CIRCLE
+  5
+AA
+100
+AcDbEntity
+  8
+capot _ fix
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+130
+ 20
+40
+ 40
+1
+  0
+CIRCLE
+  5
+AB
+100
+AcDbEntity
+  8
+capot _ fix
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+120
+ 20
+30
+ 40
+1
   0
 ENDSEC
   0
