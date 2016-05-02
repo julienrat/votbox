@@ -30,8 +30,9 @@ Pour permettre un autre vote, l'animateur doit réinitialiser les boitiers en en
 
 ##Messages
 
+Leds | Messages
+------------ | --------------
 [[Image(leds_ap.png)]] | Le boitier ne parvient pas à se connecter, Mode configuration en point d'accès 
-
 [[Image(leds_connect.png)]] | Le boitier est en train de se connecter
 [[Image(leds_ok.png)]] | Le boitier est connecté et est prêt à être utilisé 
 [[Image(leds_vote_mem.png)]] | Vote enregistré dans la mémoire mais pas envoyé au serveur
