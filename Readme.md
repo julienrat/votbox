@@ -9,11 +9,11 @@ Au démarrage si le boitier ne reconnait pas de wifi, les 2 leds (rouge et verte
 Afin de connecter celui-ci à un réseau Wifi, il faut se connecter sur le SSID (Vot_box_XXXXXX ) et se rendre à l'adresse 192.168.4.1 pour accéder à l'interface de configuration.
 
 
-![GitHub Logo](/images/accueil.png)
+![accueil](/images/accueil.png)
 
 Cliquez sur ** Configure Wifi
 
-![GitHub Logo](/images/selection.png)
+![selection](/images/selection.png)
 
 Sélectionnez le réseau puis entrez votre mot de passe
 
@@ -31,6 +31,7 @@ Pour permettre un autre vote, l'animateur doit réinitialiser les boitiers en en
 ##Messages
 
 [[Image(leds_ap.png)]] | Le boitier ne parvient pas à se connecter, Mode configuration en point d'accès 
+------------|---------------
 [[Image(leds_connect.png)]] | Le boitier est en train de se connecter
 [[Image(leds_ok.png)]] |Le boitier est connecté et est prêt à être utilisé 
 [[Image(leds_vote_mem.png)]] |Vote enregistré dans la mémoire mais pas envoyé au serveur
