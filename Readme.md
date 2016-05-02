@@ -11,13 +11,13 @@ Afin de connecter celui-ci à un réseau Wifi, il faut se connecter sur le SSID 
 
 ![accueil](/images/accueil.png)
 
-Cliquez sur ** Configure Wifi
+Cliquez sur **Configure Wifi**
 
 ![selection](/images/selection.png)
 
 Sélectionnez le réseau puis entrez votre mot de passe
 
-Pour effacer les réseaux enregistrés, allumez le boitier en maintenant la touche ** # ** enfoncée.
+Pour effacer les réseaux enregistrés, allumez le boitier en maintenant la touche **#** enfoncée.
 ##Utilisation
 A l'allumage du boitier, la led verte se met à clignotter indiquant que celui-ci est en train de se connecter. Si celui-ci trouve son réseau, la led arrete de clignotter et devient fixe.
 
