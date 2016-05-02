@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-83.30240000014359
+88.42240000015262
  22
-25.03680000004315
+52.48000000009058
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-53.96480000009302
+53.96480000009314
  41
 1.755218216318785
  42
@@ -2323,7 +2323,7 @@ AcDbLayerTableRecord
   2
 case_int
  70
-    0
+    1
  62
     7
   6
@@ -2345,7 +2345,7 @@ AcDbLayerTableRecord
   2
 ext
  70
-    0
+    1
  62
     7
   6
@@ -5042,6 +5042,214 @@ AcDbLine
 112.5
  21
 11
+  0
+ARC
+  5
+AA
+100
+AcDbEntity
+  8
+capot _ fond
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+156
+ 20
+86
+ 40
+4
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+ARC
+  5
+AB
+100
+AcDbEntity
+  8
+capot _ fond
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+92
+ 20
+4
+ 40
+4
+100
+AcDbArc
+ 50
+180
+ 51
+270
+  0
+ARC
+  5
+AC
+100
+AcDbEntity
+  8
+capot _ fond
+  6
+ByLayer
+ 62
+    2
+370
+   -1
+100
+AcDbCircle
+ 10
+156
+ 20
+4
+ 40
+4
+100
+AcDbArc
+ 50
+270
+ 51
+0
+  0
+ARC
+  5
+AD
+100
+AcDbEntity
+  8
+capot _ fond
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+92
+ 20
+86
+ 40
+4.000000000000227
+100
+AcDbArc
+ 50
+90
+ 51
+180
+  0
+LINE
+  5
+AE
+100
+AcDbEntity
+  8
+capot _ fond
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+87.99999999999977
+ 20
+86
+ 11
+88
+ 21
+4.000000000000001
+  0
+LINE
+  5
+AF
+100
+AcDbEntity
+  8
+capot _ fond
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+92
+ 20
+0
+ 11
+156
+ 21
+0
+  0
+LINE
+  5
+B0
+100
+AcDbEntity
+  8
+capot _ fond
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+160
+ 20
+4
+ 11
+160
+ 21
+86
+  0
+LINE
+  5
+B1
+100
+AcDbEntity
+  8
+capot _ fond
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+156
+ 20
+90
+ 11
+92
+ 21
+90.00000000000023
   0
 ENDSEC
   0
