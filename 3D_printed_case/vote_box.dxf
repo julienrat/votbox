@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-50.68061409288515
+87.14240000014672
  22
-45.26895529991606
+14.33600000002414
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-11.31723882497901
+53.96480000009086
  41
 1.755218216318785
  42
@@ -4209,47 +4209,9 @@ AcDbCircle
  40
 0.5
   0
-LWPOLYLINE
-  5
-8B
-100
-AcDbEntity
-  8
-capot _ fix
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPolyline
- 90
-    4
- 70
-    1
- 43
-0
- 10
-90
- 20
-2
- 10
-158
- 20
-2
- 10
-158
- 20
-88
- 10
-90
- 20
-88
-  0
 LINE
   5
-8C
+8B
 100
 AcDbEntity
   8
@@ -4273,7 +4235,7 @@ AcDbLine
   0
 LINE
   5
-8D
+8C
 100
 AcDbEntity
   8
@@ -4297,7 +4259,7 @@ AcDbLine
   0
 LINE
   5
-8E
+8D
 100
 AcDbEntity
   8
@@ -4316,6 +4278,30 @@ AcDbLine
 26.5
  11
 30.25
+ 21
+28.5
+  0
+LINE
+  5
+8E
+100
+AcDbEntity
+  8
+case_int
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbLine
+ 10
+41.75
+ 20
+26.5
+ 11
+41.75
  21
 28.5
   0
@@ -4335,30 +4321,6 @@ ByLayer
 100
 AcDbLine
  10
-41.75
- 20
-26.5
- 11
-41.75
- 21
-28.5
-  0
-LINE
-  5
-90
-100
-AcDbEntity
-  8
-case_int
-  6
-ByLayer
- 62
-    1
-370
-   -1
-100
-AcDbLine
- 10
 30.25
  20
 28.5
@@ -4369,7 +4331,7 @@ AcDbLine
   0
 LINE
   5
-91
+90
 100
 AcDbEntity
   8
@@ -4393,7 +4355,7 @@ AcDbLine
   0
 LWPOLYLINE
   5
-92
+91
 100
 AcDbEntity
   8
@@ -4431,7 +4393,7 @@ AcDbPolyline
   0
 ARC
   5
-93
+92
 100
 AcDbEntity
   8
@@ -4459,7 +4421,7 @@ AcDbArc
   0
 ARC
   5
-94
+93
 100
 AcDbEntity
   8
@@ -4487,7 +4449,7 @@ AcDbArc
   0
 LWPOLYLINE
   5
-95
+94
 100
 AcDbEntity
   8
@@ -4525,7 +4487,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-96
+95
 100
 AcDbEntity
   8
@@ -4563,7 +4525,7 @@ AcDbPolyline
   0
 LINE
   5
-97
+96
 100
 AcDbEntity
   8
@@ -4587,7 +4549,7 @@ AcDbLine
   0
 LINE
   5
-98
+97
 100
 AcDbEntity
   8
@@ -4611,7 +4573,7 @@ AcDbLine
   0
 ARC
   5
-99
+98
 100
 AcDbEntity
   8
@@ -4639,7 +4601,7 @@ AcDbArc
   0
 ARC
   5
-9A
+99
 100
 AcDbEntity
   8
