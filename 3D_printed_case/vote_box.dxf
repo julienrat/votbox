@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-capot _ fix
+capot
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-108.7500000001834
+77.70000000013195
  22
-74.06250000012493
+51.00000000008661
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-164.6875000002778
+105.400000000179
  41
 1.755218216318785
  42
@@ -4722,6 +4722,102 @@ AcDbLine
 90
  21
 88
+  0
+LINE
+  5
+9E
+100
+AcDbEntity
+  8
+capot
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+90
+ 20
+2
+ 11
+158
+ 21
+2
+  0
+LINE
+  5
+9F
+100
+AcDbEntity
+  8
+capot
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+158
+ 20
+2
+ 11
+158
+ 21
+88
+  0
+LINE
+  5
+A0
+100
+AcDbEntity
+  8
+capot
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+158
+ 20
+88
+ 11
+90
+ 21
+88
+  0
+LINE
+  5
+A1
+100
+AcDbEntity
+  8
+capot
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+90
+ 20
+88
+ 11
+90
+ 21
+2
   0
 ENDSEC
   0
