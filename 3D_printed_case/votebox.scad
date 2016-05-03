@@ -8,7 +8,7 @@ union(){
     linear_extrude(height = 13, center = false, convexity = 30)
    import (file = "vote_box.dxf",layer="int");
    
-       linear_extrude(height = 10, center = false, convexity = 30)
+   #    linear_extrude(height = 10, center = false, convexity = 30)
    import (file = "vote_box.dxf",layer="ext");
    
     linear_extrude(height = 8, center = false, convexity = 30)
@@ -22,9 +22,12 @@ union(){
     
              linear_extrude(height = 2, center = false, convexity = 30)
    import (file = "vote_box.dxf",layer="capot _ fond");
-    
+    union(){
        linear_extrude(height = 10, center = false, convexity = 30)
    import (file = "vote_box.dxf",layer="capot_fix");
+          linear_extrude(height = 4, center = false, convexity = 30)
+   import (file = "vote_box.dxf",layer="capot_fix_reforts");
+    }
    
 }
 translate([72/2-10/2,0,3.5]) cube([10,10,5]);
