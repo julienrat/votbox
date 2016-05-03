@@ -19,11 +19,11 @@ Sélectionnez le réseau puis entrez votre mot de passe
 
 Pour effacer les réseaux enregistrés, allumez le boitier en maintenant la touche **#** enfoncée.
 ###Utilisation
-A l'allumage du boitier, la led verte se met à clignotter indiquant que celui-ci est en train de se connecter. Si celui-ci trouve son réseau, la led arrete de clignotter et devient fixe.
+A l'allumage du boitier, la led verte se met à clignotter indiquant que celui-ci est en train de se connecter. Si celui-ci trouve son réseau, la led arrete de clignotter et devient fixe. Sinon, le boitier se met en point d'accès (les leds rouges et vertes clignottent)
 
 Pour voter, faites votre choix (chiffres et lettres). à la pression sur une touche, la led rouge se met à clignotter indiquant que le vote est mémorisé. Pour modifier en cas d'erreur, appuyez sur la touche * . La led rouge s'eteint et permet de sélectionner une autre réponse.
 
-Pour valider et envoyer votre vote au serveur, appuyez sur la touche #. La led rouge arrete de clignotter et devient fixe. Sinon, le boitier se met en point d'accès (les leds rouges et vertes clignottent)
+Pour valider et envoyer votre vote au serveur, appuyez sur la touche #. La led rouge arrete de clignotter et devient fixe. 
 
 ###Remise à zero
 Pour permettre un autre vote, l'animateur doit réinitialiser les boitiers en envoyant la requette : http://adresse_ip/RAZ la led rouge s'éteint et permet alors un nouveau vote.
