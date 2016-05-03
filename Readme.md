@@ -19,7 +19,7 @@ Sélectionnez le réseau puis entrez votre mot de passe
 
 Pour effacer les réseaux enregistrés, allumez le boitier en maintenant la touche **#** enfoncée.
 ###Utilisation
-A l'allumage du boitier, la led verte se met à clignotter indiquant que celui-ci est en train de se connecter. Si celui-ci trouve son réseau, la led arrete de clignotter et devient fixe. Sinon, le boitier se met en point d'accès (les leds rouges et vertes clignottent)
+A l'allumage du boitier, la led verte se met à clignotter indiquant que celui-ci est en train de se connecter. Si celui-ci trouve son réseau, la led arrete de clignotter et devient fixe. Sinon, le boitier se met en point d'accès (les leds rouges et vertes clignottent ![led](/images/leds_ap.png))
 
 Pour voter, faites votre choix (chiffres et lettres). à la pression sur une touche, la led rouge se met à clignotter indiquant que le vote est mémorisé. Pour modifier en cas d'erreur, appuyez sur la touche * . La led rouge s'eteint et permet de sélectionner une autre réponse.
 
