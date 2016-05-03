@@ -21,7 +21,7 @@ Pour effacer les réseaux enregistrés, allumez le boitier en maintenant la touc
 ###Utilisation
 A l'allumage du boitier, la led verte se met à clignotter indiquant que celui-ci est en train de se connecter ![led](/images/leds_connect.png) . Si celui-ci trouve son réseau, la led arrete de clignotter et devient fixe ![led](/images/leds_ok.png). Sinon, le boitier se met en point d'accès (les leds rouges et vertes clignottent ![led](/images/leds_ap.png))
 
-Pour voter, faites votre choix (chiffres et lettres). à la pression sur une touche, la led rouge se met à clignotter indiquant que le vote est mémorisé ![led](/images/leds_vote_mem.png). Pour modifier en cas d'erreur, appuyez sur la touche * . La led rouge s'eteint et permet de sélectionner une autre réponse.
+Pour voter, faites votre choix (chiffres et lettres). à la pression sur une touche, la led rouge se met à clignotter indiquant que le vote est mémorisé ![led](/images/leds_vote_mem.png). Pour modifier en cas d'erreur, appuyez sur la touche * . La led rouge s'eteint et permet de sélectionner une autre réponse ![led](/images/leds_ok.png).
 
 Pour valider et envoyer votre vote au serveur, appuyez sur la touche #. La led rouge arrete de clignotter et devient fixe ![led](/images/leds_voted.png). 
 
