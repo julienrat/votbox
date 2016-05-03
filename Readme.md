@@ -38,11 +38,11 @@ Leds | Messages
 ![led](/images/leds_vote_mem.png) | Vote enregistré dans la mémoire mais pas envoyé au serveur
 ![led](/images/leds_voted.png) | Vote effectué, attente de remise à zero
 
-##Boitier 3D
+###Boitier 3D
 
 ![selection](/images/box.png)
 
-##Schema de cablage
+###Schema de cablage
 Fritzing | Eagle
 ---------|---------
 ![selection](/images/votbox_bb.png) | ![selection](/images/schema.png) 
