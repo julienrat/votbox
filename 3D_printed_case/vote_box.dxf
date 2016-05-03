@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-51.74722560010284
+79.43005143055809
  22
-48.88985600009717
+6.026375987211995
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-27.62997760005491
+14.14654853122816
  41
 1.755218216318785
  42
@@ -5936,6 +5936,50 @@ AcDbCircle
 83
  40
 5.199999999999989
+  0
+CIRCLE
+  5
+C9
+100
+AcDbEntity
+  8
+capot_fix_reforts
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+95
+ 20
+83
+ 40
+1.40356688476183
+  0
+CIRCLE
+  5
+CA
+100
+AcDbEntity
+  8
+capot_fix_reforts
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+153
+ 20
+7
+ 40
+1.40356688476183
   0
 ENDSEC
   0
