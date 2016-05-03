@@ -43,5 +43,6 @@ Leds | Messages
 ![selection](/images/box.png)
 
 ##Schema de cablage
-
-![selection](/images/votbox_bb.png)
+Fritzing | Eagle
+---------|---------
+![selection](/images/votbox_bb.png) | ![selection](/images/schema.png) 
