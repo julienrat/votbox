@@ -44,4 +44,4 @@ Leds | Messages
 
 ##Schemas de cablage
 
-![selection](/images/votebox_bb.png)
+![selection](/images/votbox_bb.png)
