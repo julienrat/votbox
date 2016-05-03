@@ -41,3 +41,7 @@ Leds | Messages
 ##Boitier 3D
 
 ![selection](/images/box.png)
+
+##Schemas de cablage
+
+![selection](/images/votebox_bb.png)
