@@ -23,7 +23,7 @@ A l'allumage du boitier, la led verte se met à clignotter indiquant que celui-c
 
 Pour voter, faites votre choix (chiffres et lettres). à la pression sur une touche, la led rouge se met à clignotter indiquant que le vote est mémorisé ![led](/images/leds_vote_mem.png). Pour modifier en cas d'erreur, appuyez sur la touche * . La led rouge s'eteint et permet de sélectionner une autre réponse ![led](/images/leds_ok.png).
 
-Pour valider et envoyer votre vote au serveur, appuyez sur la touche #. La led rouge arrete de clignotter et devient fixe ![led](/images/leds_voted.png). 
+Pour valider et envoyer votre vote au serveur, appuyez sur la touche #. La led rouge arrete de clignotter et devient fixe ![led](/images/leds_voted.png).  Il est alors impossible d'envoyer un autre vote.
 
 ###Remise à zero
 Pour permettre un autre vote, l'animateur doit réinitialiser les boitiers en envoyant la requette : http://adresse_ip/RAZ la led rouge s'éteint et permet alors un nouveau vote![led](/images/leds_ok.png).
