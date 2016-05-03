@@ -26,7 +26,7 @@ Pour voter, faites votre choix (chiffres et lettres). à la pression sur une tou
 Pour valider et envoyer votre vote au serveur, appuyez sur la touche #. La led rouge arrete de clignotter et devient fixe ![led](/images/leds_voted.png). 
 
 ###Remise à zero
-Pour permettre un autre vote, l'animateur doit réinitialiser les boitiers en envoyant la requette : http://adresse_ip/RAZ la led rouge s'éteint et permet alors un nouveau vote.
+Pour permettre un autre vote, l'animateur doit réinitialiser les boitiers en envoyant la requette : http://adresse_ip/RAZ la led rouge s'éteint et permet alors un nouveau vote![led](/images/leds_ok.png).
 
 ###Messages
 
