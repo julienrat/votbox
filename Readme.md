@@ -50,4 +50,4 @@ Fritzing | Eagle
 ###Vue PCB
 Bottom | Top
 ---------|---------
-![selection](/images/vote_box_top.png) | ![selection](/images/vote_box_bottom.png) 
+![selection](/images/vote_box_top.png) | ![selection](/images/vote_box_bot.png) 
