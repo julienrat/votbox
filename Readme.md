@@ -46,3 +46,8 @@ Leds | Messages
 Fritzing | Eagle
 ---------|---------
 ![selection](/images/votbox_bb.png) | ![selection](/images/schema.png) 
+
+###Vue PCB
+Bottom | Top
+---------|---------
+![selection](/images/vote_box_top.png) | ![selection](/images/vote_box_bottom.png) 
